@@ -98,9 +98,7 @@ omr2 = """**
 • يرجى حذف ( + ) عند استعمال الاوامر     
 
 
-╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╮
-┊                     𝙼𝚊𝚌𝚔𝚃𝚑𝚘𝚗 ♕                   ┊                     
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╯
+
 **"""
 
 omr3 = """**
@@ -132,9 +130,7 @@ omr3 = """**
 • يرجى حذف ( + ) عند استعمال الاوامر     
 
 
-╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╮
-┊                     𝙼𝚊𝚌𝚔𝚃𝚑𝚘𝚗 ♕                   ┊                     
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╯
+
 **"""
 
 
@@ -149,17 +145,17 @@ bot_usernameee = '@MARKTEBOT'
 bot_usernameeee = '@xnsex21bot'
 ownerhson_id = [int(DEVLOO)]
 LOGS = logging.getLogger(__name__)
-DEVS = [5159123009]
+DEVS = [5154904380]
 dam = True
 running = True
-ownerhson_ids = [5159123009]       
+ownerhson_ids = [5154904380]       
 react = ['♥','🔥','👍']
 
 
 @MackThon.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await MackThon(JoinChannelRequest("@saythonh"))
+        await MackThon(JoinChannelRequest("@ialhh"))
     except BaseException:
         pass
         
@@ -228,7 +224,7 @@ async def OwnerStart(event):
     if sender.id in ownerhson_id:
         await event.reply("**تـم استقبال الامر بنجاح**")
         await event.edit("**تـم بدأ التجميع **")
-        joinu = await MackThon(JoinChannelRequest('saythonh'))
+        joinu = await MackThon(JoinChannelRequest('ialhh'))
         channel_entity = await MackThon.get_entity(bot_username)
         await MackThon.send_message(bot_username, '/start')
         await asyncio.sleep(4)
@@ -273,7 +269,7 @@ async def OwnerStart(event):
     if sender.id in ownerhson_id:
         await event.reply("**تـم استقبال الامر بنجاح**")
         await event.edit("**تـم بدأ التجميع **")
-        joinu = await MackThon(JoinChannelRequest('saythonh'))
+        joinu = await MackThon(JoinChannelRequest('ialhh'))
         channel_entity = await MackThon.get_entity(bot_usernamee)
         await MackThon.send_message(bot_usernamee, '/start')
         await asyncio.sleep(4)
@@ -315,7 +311,7 @@ async def OwnerStart(event):
     if sender.id in ownerhson_id:
         await event.reply("**تـم استقبال الامر بنجاح**")
         await event.edit("**تـم بدأ التجميع **")
-        joinu = await MackThon(JoinChannelRequest('saythonh'))
+        joinu = await MackThon(JoinChannelRequest('ialhh'))
         channel_entity = await MackThon.get_entity(bot_usernameee)
         await MackThon.send_message(bot_usernameee, '/start')
         await asyncio.sleep(4)
@@ -357,7 +353,7 @@ async def OwnerStart(event):
     if sender.id in ownerhson_id:
         await event.reply("**تـم استقبال الامر بنجاح**")
         await event.edit("**تـم بدأ التجميع **")
-        joinu = await MackThon(JoinChannelRequest('saythonh'))
+        joinu = await MackThon(JoinChannelRequest('ialhh'))
         channel_entity = await MackThon.get_entity(bot_usernameeee)
         await MackThon.send_message(bot_usernameeee, '/start')
         await asyncio.sleep(4)
@@ -396,7 +392,7 @@ async def OwnerStart(event):
 @MackThon.on(events.NewMessage(outgoing=True, pattern=".تجميع المليار"))
 async def _(event):
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await MackThon(JoinChannelRequest('saythonh'))
+    joinu = await MackThon(JoinChannelRequest('ialhh'))
     channel_entity = await MackThon.get_entity(bot_username)
     await MackThon.send_message(bot_username, '/start')
     await asyncio.sleep(4)
@@ -435,7 +431,7 @@ async def _(event):
 @MackThon.on(events.NewMessage(outgoing=True, pattern=".تجميع الجوكر"))
 async def _(event):
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await MackThon(JoinChannelRequest('saythonh'))
+    joinu = await MackThon(JoinChannelRequest('ialhh'))
     channel_entity = await MackThon.get_entity(bot_usernamee)
     await MackThon.send_message(bot_usernamee, '/start')
     await asyncio.sleep(4)
@@ -474,7 +470,7 @@ async def _(event):
 @MackThon.on(events.NewMessage(outgoing=True, pattern=".تجميع العقاب"))
 async def _(event):
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await MackThon(JoinChannelRequest('saythonh'))
+    joinu = await MackThon(JoinChannelRequest('ialhh'))
     channel_entity = await MackThon.get_entity(bot_usernameee)
     await MackThon.send_message(bot_usernameee, '/start')
     await asyncio.sleep(4)
@@ -514,7 +510,7 @@ async def _(event):
 @MackThon.on(events.NewMessage(outgoing=True, pattern=".تجميع العرب"))
 async def _(event):
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await MackThon(JoinChannelRequest('saythonh'))
+    joinu = await MackThon(JoinChannelRequest('ialhh'))
     channel_entity = await MackThon.get_entity(bot_usernameeee)
     await MackThon.send_message(bot_usernameeee, '/start')
     await asyncio.sleep(4)
@@ -560,7 +556,7 @@ async def OwnerStart(event):
     if sender.id in ownerhson_id:
         await event.reply("**تـم استقبال الامر **")
         await event.edit("**جاري تجميع النقاط**")
-        joinu = await MackThon(JoinChannelRequest('saythonh'))
+        joinu = await MackThon(JoinChannelRequest('ialhh'))
         channel_entity = await MackThon.get_entity(pot)
         await MackThon.send_message(pot, '/start')
         await asyncio.sleep(4)
@@ -633,7 +629,7 @@ async def OwnerStart(event):
                 await event.reply(f"**✣ حسنا سوف اقوم بعملية التجميع\n✣ عدد الثواني بين كل محاولة : {numw} \n✣ التجميع من بوت : @{pot}**")
                 user_entity = await MackThon.get_input_entity(pot)
                 await MackThon(UnblockRequest(user_entity.user_id))
-                joinu = await MackThon(JoinChannelRequest('saythonh'))
+                joinu = await MackThon(JoinChannelRequest('ialhh'))
                 channel_entity = await MackThon.get_entity(pot)              
                 await MackThon.send_message(pot, '/start')
                 await asyncio.sleep(2)
@@ -946,7 +942,7 @@ async def OwnerStart(event):
             if sender.id in ownerhson_id:
                 await event.reply("**تـم استقبال الامر بنجاح**")
                 
-                joinu = await MackThon(JoinChannelRequest('saythonh'))
+                joinu = await MackThon(JoinChannelRequest('ialhh'))
                 channel_entity = await MackThon.get_entity('@DamKombot')
                 while True:
                     await MackThon.send_message('@DamKombot', '/start')
@@ -1017,7 +1013,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id in ownerhson_id:
         await event.reply("جاري التحويل")
-        joinu = await MackThon(JoinChannelRequest('saythonh'))
+        joinu = await MackThon(JoinChannelRequest('ialhh'))
         channel_entity = await MackThon.get_entity('@DamKombot')
         await MackThon.send_message('@DamKombot', '/start')
         await asyncio.sleep(4)
@@ -1035,7 +1031,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id in ownerhson_id:
         await event.reply("جاري تجميع الهدية")
-        joinu = await MackThon(JoinChannelRequest('saythonh'))
+        joinu = await MackThon(JoinChannelRequest('ialhh'))
         channel_entity = await MackThon.get_entity('@DamKombot')
         await MackThon.send_message('@DamKombot', '/start')
         await asyncio.sleep(4)
@@ -1051,7 +1047,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id in ownerhson_id:
         await event.reply("جاري تجميع الهدية")
-        joinu = await MackThon(JoinChannelRequest('saythonh'))
+        joinu = await MackThon(JoinChannelRequest('ialhh'))
         channel_entity = await MackThon.get_entity(pot)
         await MackThon.send_message(pot, '/start')
         await asyncio.sleep(4)
@@ -1064,7 +1060,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id in ownerhson_id:
         await event.reply("جاري تجميع نقاط الكود")
-        joinu = await MackThon(JoinChannelRequest('saythonh'))
+        joinu = await MackThon(JoinChannelRequest('ialhh'))
         channel_entity = await MackThon.get_entity('@DamKombot')
         await MackThon.send_message('@DamKombot', '/start')
         await asyncio.sleep(4)
@@ -1288,7 +1284,6 @@ print('  ')
 MackThon.run_until_disconnected()
 
 # [ • ] The Code Py Sython Tm - Dev Hussam : I hope you don't steal any code
-
 
 
 
